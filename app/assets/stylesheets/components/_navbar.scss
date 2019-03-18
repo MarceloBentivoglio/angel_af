@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: #000;
+  background: $coral-3;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +9,19 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 100px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  .nav-link {
+    padding-left: 10px;
+  }
+  a {
+    color: $gray-1;
+    &:hover {
+      color: $gray-7;
+    }
+  }
 }
